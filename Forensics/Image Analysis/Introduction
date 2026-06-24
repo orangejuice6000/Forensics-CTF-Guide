@@ -1,0 +1,27 @@
+# Image Analysis 
+
+## Methodology
+
+1. Make sure the file type is the file type that it states
+2. Check the metadata through `exiftool` and use `strings` to look at all strings in image.
+    - 
+
+
+
+## Strings
+*Use methods on garden.jpg, to follow along (Taken from PICOCTF)*
+
+To view strings of an image do `strings` in linux and then the filename
+Ex: `strings garden.png`
+
+We can see at the bottom that it contains `picoCTF{more_than_m33ts_the_3y3a63b5b27}`
+Alternatively you can just use an hex editor and view it that way.
+
+
+## Files inside Files
+
+
+
+
+
+
